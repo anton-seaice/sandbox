@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.10">
   <diagram name="Page-1" id="_p6e2Iec_QCLcjQ4W3_k">
-    <mxGraphModel>
+    <mxGraphModel dx="1754" dy="1520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AS0LUw5QBcyl6znD5vH5-4" target="AS0LUw5QBcyl6znD5vH5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-4" value="&lt;b&gt;access3-exe&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;spacingTop=0;spacingBottom=160;" vertex="1" parent="1">
+          <mxGeometry x="255" y="330" width="340" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-1" value="&lt;div&gt;&lt;b&gt;ACCESS-OM3 (Deployment):&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="20" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-2" value="configurations = &lt;br&gt;MOM6, MOM6-CICE6, MOM6-CICE6-WW3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="370" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ACCESS-NRI/access3-share&lt;br&gt;&lt;/div&gt;&lt;div&gt;CMake builds using one program definition, &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306.38" y="440" width="238.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-5" value="&lt;div&gt;&lt;b&gt;access-cice&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;ACCESS-NRI/CICE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CMake builds libcice&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="600" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-6" value="&lt;div&gt;&lt;b&gt;access-mom6&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;ACCESS-NRI/MOM6&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CMake builds libmom6&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="590" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-7" value="&lt;div&gt;&lt;b&gt;access-ww3&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;ACCESS-NRI/WW3&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CMake builds libww3&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="590" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AS0LUw5QBcyl6znD5vH5-8" target="AS0LUw5QBcyl6znD5vH5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AS0LUw5QBcyl6znD5vH5-8" target="AS0LUw5QBcyl6znD5vH5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AS0LUw5QBcyl6znD5vH5-8" target="AS0LUw5QBcyl6znD5vH5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-8" value="&lt;div&gt;&lt;b&gt;access3-share&lt;/b&gt;&lt;/div&gt;&lt;div&gt;ACCESS-NRI/access3-share&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;CMake builds&amp;nbsp;&lt;/div&gt;&lt;div&gt;cmeps, cdeps, share, timing, etc&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="328" y="780" width="195" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-9" value="&lt;div&gt;External deps ...&amp;nbsp;&lt;/div&gt;&lt;div&gt;ESMF, FMS, ParallelIO, Netcdf ...&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1000" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.554;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AS0LUw5QBcyl6znD5vH5-9" target="AS0LUw5QBcyl6znD5vH5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-15" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AS0LUw5QBcyl6znD5vH5-7" target="AS0LUw5QBcyl6znD5vH5-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="780" as="sourcePoint" />
+            <mxPoint x="610" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="520" />
+              <mxPoint x="540" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="AS0LUw5QBcyl6znD5vH5-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="600" as="sourcePoint" />
+            <mxPoint x="220" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="600" />
+              <mxPoint x="170" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-18" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.341;exitY=-0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.403;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AS0LUw5QBcyl6znD5vH5-6" target="AS0LUw5QBcyl6znD5vH5-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="580" as="sourcePoint" />
+            <mxPoint x="420" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="580" />
+              <mxPoint x="370" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS0LUw5QBcyl6znD5vH5-24" value="&lt;div&gt;Bold text = spack package name&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;ACCESS-NRI/... = github repo&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;CMake builds library name&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="950" width="200" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
